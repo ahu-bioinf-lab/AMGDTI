@@ -6,3 +6,9 @@ Execute the train_search.py script to identify the optimal adaptive meta-graph f
 # Step 3: DTI Prediction
 Use the train.py script to apply the adaptive meta-graph to DTI prediction. This step employs the best adaptive meta-graph from the previous step to make predictions and generate results.
 Following these steps in order will help ensure successful replication of the results presented in our manuscript. If you encounter any challenges during execution or need more detailed information, please consult our code documentation and program instructions for guidance on parameter settings and data preparation.
+
+# Environment
+python = 3.8
+pytorch = 1.12
+pandas = 1.4.2
+scipy = 1.9.1
