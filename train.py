@@ -7,7 +7,7 @@ import argparse
 import torch
 import torch.nn.functional as F
 from sklearn.metrics import roc_auc_score, average_precision_score
-from Drug_target_Luo.node2vec import node2Vec_main
+from node2vec import node2Vec_main
 from dataset import generate_data
 from model import Model
 from preprocess import normalize_sym, normalize_row, sparse_mx_to_torch_sparse_tensor
