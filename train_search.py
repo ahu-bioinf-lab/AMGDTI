@@ -6,8 +6,8 @@ import argparse
 import torch
 import torch.nn.functional as F
 
-from Drug_target_Luo.dataset import generate_data
-from Drug_target_Luo.node2vec import node2Vec_main
+from dataset import generate_data
+from node2vec import node2Vec_main
 from model_search import Model
 from preprocess import normalize_sym, normalize_row, sparse_mx_to_torch_sparse_tensor
 
