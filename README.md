@@ -1,5 +1,5 @@
 # AMGDTI
-This repository contains the code for our BIB 2024 Research Track paper: [AMGDTI: drug–target interaction prediction based on adaptive meta-graph learning in heterogeneous network](https://academic.oup.com/bib/article-pdf/25/1/bbad474/54823473/bbad474.pdf)
+This repository contains the code for our BIB 2023 Research Track paper: [AMGDTI: drug–target interaction prediction based on adaptive meta-graph learning in heterogeneous network](https://academic.oup.com/bib/article-pdf/25/1/bbad474/54823473/bbad474.pdf)
 ![Alt](https://github.com/ahu-bioinf-lab/AMGDTI/blob/main/AMGDTI.png)
 
 # How to run
