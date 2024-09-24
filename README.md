@@ -1,7 +1,7 @@
 # AMGDTI
 This repository contains the code for our BIB 2023 Research Track paper: [AMGDTI: drug–target interaction prediction based on adaptive meta-graph learning in heterogeneous network](https://academic.oup.com/bib/article-pdf/25/1/bbad474/54823473/bbad474.pdf)
 ![Alt](https://github.com/ahu-bioinf-lab/AMGDTI/blob/main/AMGDTI.png)
-**Figure 1.**Overviewofthe AMGDTI algorithm,which is divided into three steps. (A) Constructing the heterogeneous networkwithmulti-source biomedical data and employing the Node2Vec algorithm to encode the node representation. (B) Searching for the adaptive meta-graph for the information aggregation of drugs (b1) and protein targets (b2) based on GCN in the heterogeneous network, respectively. (C) Utilizing the inner product of the aggregated feature representation of drugs and proteins to predict potential DTI.
+**Figure 1.** Overviewofthe AMGDTI algorithm,which is divided into three steps. (A) Constructing the heterogeneous networkwithmulti-source biomedical data and employing the Node2Vec algorithm to encode the node representation. (B) Searching for the adaptive meta-graph for the information aggregation of drugs (b1) and protein targets (b2) based on GCN in the heterogeneous network, respectively. (C) Utilizing the inner product of the aggregated feature representation of drugs and proteins to predict potential DTI.
 
 # How to run
 ## Step 1: Data Preprocessing
