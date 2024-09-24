@@ -19,6 +19,7 @@ pandas = 1.4.2
 scipy = 1.9.1
 ```
 # Citation
+If you find our work helpful in your own research, please consider citing our paper:
 ```tex
 @article{su2024amgdti,
   title={AMGDTI: drug--target interaction prediction based on adaptive meta-graph learning in heterogeneous network},
