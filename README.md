@@ -1,6 +1,6 @@
 # AMGDTI
 [AMGDTI: drug–target interaction prediction based on adaptive meta-graph learning in heterogeneous network](https://academic.oup.com/bib/article/25/1/bbad474/7494752?login=true)
-![Alt]([https://i-blog.csdnimg.cn/blog_migrate/8f1b213356ed81d5a706d52c6ab7cb6d.png](https://github.com/ahu-bioinf-lab/AMGDTI/blob/main/AMGDTI.png))
+![Alt](https://github.com/ahu-bioinf-lab/AMGDTI/blob/main/AMGDTI.png)
 ## Step 1: Data Preprocessing
 Run the `preprocess.py` script to prepare the input heterogeneous network. This step ensures your data is correctly processed for subsequent training and prediction.
 ## Step 2: Meta-Graph Optimization
