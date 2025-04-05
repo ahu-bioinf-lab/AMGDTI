@@ -1,7 +1,7 @@
 # AMGDTI
-![release](https://img.shields.io/github/v/release/facebook/react?label=release)
-![open issues](https://img.shields.io/github/issues/facebook/react?label=open%20issues)
-![pull requests](https://img.shields.io/github/issues-pr/facebook/react?label=pull%20requests)
+![release](https://img.shields.io/badge/release-v1.0-blue)
+![open issues](https://img.shields.io/badge/open%20issues-2-brightgreen)
+![pull requests](https://img.shields.io/badge/pull%20requests-2%20open-brightgreen)
 
 This repository contains the code for our BIB 2023 Research Track paper: [AMGDTI: drug–target interaction prediction based on adaptive meta-graph learning in heterogeneous network](https://academic.oup.com/bib/article-pdf/25/1/bbad474/54823473/bbad474.pdf)
 ![Alt](https://github.com/ahu-bioinf-lab/AMGDTI/blob/main/AMGDTI.png)
