@@ -37,3 +37,7 @@ If you find our work helpful in your own research, please consider citing our pa
   publisher={Oxford University Press}
 }
 ```
+
+## Contact
+
+For questions or suggestions, please contact [huzylife@163.com] or open an issue on GitHub.
