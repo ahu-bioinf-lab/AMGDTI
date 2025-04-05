@@ -1,67 +1,7 @@
 # AMGDTI
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Dynamic Badges</title>
-  <style>
-    body {
-      background-color: #1e1e1e;
-      font-family: sans-serif;
-      padding: 20px;
-      color: white;
-    }
-
-    .badge {
-      display: inline-block;
-      padding: 3px 8px;
-      font-size: 13px;
-      border-radius: 3px;
-      font-weight: bold;
-      margin-right: 6px;
-    }
-
-    .gray { background-color: #555; }
-    .blue { background-color: #007ec6; }
-    .green { background-color: #97ca00; color: white; }
-  </style>
-</head>
-<body>
-
-  <div id="badge-container"></div>
-
-  <script>
-    // === Badge 数据 ===
-    const badgeData = {
-      version: "v1.0",
-      openIssues: 0,
-      pullRequests: 0
-    };
-
-    // === 生成 badge 函数 ===
-    function createBadge(label, value, color1, color2) {
-      const span1 = document.createElement("span");
-      span1.className = `badge ${color1}`;
-      span1.textContent = label;
-
-      const span2 = document.createElement("span");
-      span2.className = `badge ${color2}`;
-      span2.textContent = value;
-
-      const container = document.getElementById("badge-container");
-      container.appendChild(span1);
-      container.appendChild(span2);
-    }
-
-    // === 渲染 badge ===
-    createBadge("release", badgeData.version, "gray", "blue");
-    createBadge("open issues", badgeData.openIssues, "gray", "green");
-    createBadge("pull requests", `${badgeData.pullRequests} open`, "gray", "green");
-  </script>
-
-</body>
-</html>
-
+![release](https://img.shields.io/github/v/release/facebook/react?label=release)
+![open issues](https://img.shields.io/github/issues/facebook/react?label=open%20issues)
+![pull requests](https://img.shields.io/github/issues-pr/facebook/react?label=pull%20requests)
 
 This repository contains the code for our BIB 2023 Research Track paper: [AMGDTI: drug–target interaction prediction based on adaptive meta-graph learning in heterogeneous network](https://academic.oup.com/bib/article-pdf/25/1/bbad474/54823473/bbad474.pdf)
 ![Alt](https://github.com/ahu-bioinf-lab/AMGDTI/blob/main/AMGDTI.png)
